@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
@@ -16,7 +16,8 @@ export const HoverEffect = ({
   }[];
   className?: string;
 }) => {
-  let [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+  // Use const for `setHoveredIndex` function, which is stable and doesn't change
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
     <div
@@ -35,7 +36,7 @@ export const HoverEffect = ({
           <AnimatePresence>
             {hoveredIndex === idx && (
               <motion.span
-                className="absolute inset-0 h-full w-full bg-neutral-200 dark:bg-slate-800/[0.8] block "
+                className="absolute inset-0 h-full w-full bg-neutral-200 dark:bg-slate-800/[0.8] block"
                 layoutId="hoverBackground"
                 initial={{ opacity: 0 }}
                 animate={{
@@ -50,12 +51,12 @@ export const HoverEffect = ({
             )}
           </AnimatePresence>
           <Card>
-            <Image src={item.link} alt="photo" fill objectFit="cover"/>
+            <Image src={item.link} alt="photo" fill objectFit="cover" />
             <CardDescription>
               <p className="font-medium text-[12px] leading-6 text-[#7f2777]">
                 TECH
               </p>
-              <p className="mt-2 font-semiblod text-[24px] leading-7 text-[#1a1d27]">
+              <p className="mt-2 font-semibold text-[24px] leading-7 text-[#1a1d27]">
                 {item.title}
               </p>
               <p className="text-base leading-16 text-[#1a1d27]">
@@ -79,7 +80,7 @@ export const Card = ({
   return (
     <div
       className={cn(
-        " h-full w-full overflow-hidden bg-inherit border border-transparent dark:border-white/[0.2] group-hover:border-slate-700 relative z-20",
+        "h-full w-full overflow-hidden bg-inherit border border-transparent dark:border-white/[0.2] group-hover:border-slate-700 relative z-20",
         className
       )}
     >
@@ -98,7 +99,8 @@ export const CardDescription = ({
   children: React.ReactNode;
 }) => {
   return (
-    <div   className={cn(
+    <div
+      className={cn(
         "mt-8 w-[368px] h-[116px] py-5 px-6 bg-white absolute bottom-5 left-1/2 -translate-x-1/2",
         className
       )}
