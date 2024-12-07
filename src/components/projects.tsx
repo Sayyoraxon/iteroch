@@ -4,7 +4,7 @@ import { HoverEffect } from "./ui/card-hover-effect";
 
 export function Projects() {
   return (
-    <div id="projects" className="w-full py-[140px]" style={{ backgroundImage: "url(/BG.png)" }}>
+    <div id="projects" className="px-3 w-full py-[140px]" style={{ backgroundImage: "url(/BG.png)" }}>
       <div className="max-w-[1296px] mx-auto">
         <p className="font-semibold text-[18px] leading-[26px] text-[#ff8911]">
           PROJECTS

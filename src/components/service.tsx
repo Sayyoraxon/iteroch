@@ -5,7 +5,7 @@ import { ExpandableCardDemo } from './ui/animated-card'
 
 const Service = () => {
     return (
-        <div id='service' className='py-[140px]' style={{ backgroundImage: "url(/BG.png)" }}>
+        <div id='service' className='px-3 py-[140px]' style={{ backgroundImage: "url(/BG.png)" }}>
             <div className='max-w-[1296px] mx-auto flex flex-wrap justify-center gap-[64px]'>
                 <div className='max-w-[580px]'>
                     <p className="font-semibold text-[18px] leading-[26px] text-[#ff8911]">

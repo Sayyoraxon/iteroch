@@ -3,7 +3,7 @@ import React from 'react'
 
 const WhyChoose = () => {
   return (
-    <div className='w-full bg-white py-[140px]'>
+    <div className='px-3 w-full bg-white py-[140px]'>
       <div className='max-w-[1296px] mx-auto'>
         <div className="container w-full gap-y-10 mx-auto flex justify-end gap-14 pt-12 lg:flex-row flex-col items-center">
           <div className="relative w-[400px] h-[720px] rounded-[16px]" style={{ backgroundImage: "url(/BG_.png)" }}>

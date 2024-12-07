@@ -4,7 +4,7 @@ import { AiOutlinePlayCircle } from 'react-icons/ai'
 
 const Hero = () => {
     return (
-        <section className="w-full" style={{ backgroundImage: "url(/BG1.png)" }}>
+        <section className="w-full px-3" style={{ backgroundImage: "url(/BG1.png)" }}>
             <div className="container max-w-[1612px] ml-auto flex justify-between gap-y-10 py-[120px] pr-16 2xl:flex-row flex-col items-center">
                 <div className="max-w-[643px] h-[490px]">
                     <div className='flex items-center'>

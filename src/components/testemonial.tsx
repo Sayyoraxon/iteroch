@@ -9,7 +9,7 @@ export function Testemonial() {
   ));
 
   return (
-    <div className="w-full py-[140px]" style={{backgroundImage: "url(/BG.png)"}}>
+    <div className="px-3 w-full py-[140px]" style={{backgroundImage: "url(/BG.png)"}}>
       <p className="max-w-[1000px] mx-auto font-semibold text-[18px] leading-[26px] text-[#ff8911]">
         Testemonial
       </p>

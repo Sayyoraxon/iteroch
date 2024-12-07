@@ -27,7 +27,7 @@ export function AnimatedTestimonialsDemo() {
 
     ];
     return (
-        <div id="blog" className="w-full bg-[#070706] py-[140px]">
+        <div id="blog" className="px-3 w-full bg-[#070706] py-[140px]">
             <div className="max-w-[1296px] mx-auto">
                 <p className="font-bold text-[18px] leading-[26px] text-[#ff8911]">
                     OUR LATEST BLOG

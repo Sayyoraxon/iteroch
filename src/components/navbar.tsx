@@ -4,7 +4,7 @@ import { LiaPhoneVolumeSolid } from "react-icons/lia";
 
 const Navbar = () => {
   return (
-    <div className='w-full bg-[#070706] h-[96px]'>
+    <div className='w-full bg-[#070706] h-[96px] px-3'>
         <div className='max-w-[1296px] h-full mx-auto flex justify-between items-center'>
             <p className='font-[800] text-[24px] leading-6 text-white'>
                 iteroch

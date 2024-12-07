@@ -3,7 +3,7 @@ import React from 'react'
 
 const Register = () => {
   return (
-    <div className='w-full bg-white py-[120px]'>
+    <div className='px-3 w-full bg-white py-[120px]'>
         <div className="container max-w-[1296px] gap-y-10 mx-auto flex justify-end gap-x-32 pt-12 lg:flex-row flex-col items-center">
           <div className="relative w-[400px] h-[720px] rounded-[16px]" style={{ backgroundImage: "url(/BG_.png)" }}>
 

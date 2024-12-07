@@ -2,7 +2,7 @@ import React from 'react'
 
 const Subfooter = () => {
     return (
-        <div className='w-full bg-[#ff8911]'>
+        <div className='px-3 w-full bg-[#ff8911]'>
             <div className='w-[828px] mx-auto py-[120px] text-center'>
                 <p className='font-semibold text-[64px] leading-[72px] text-[#fff]'>
                     Looking For The Best IT Business Solutions?

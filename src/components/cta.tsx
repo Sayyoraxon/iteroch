@@ -2,7 +2,7 @@ import React from 'react'
 
 const Cta = () => {
   return (
-    <div className='w-full py-[56px] bg-[#070706]'>
+    <div className='px-3 w-full py-[56px] bg-[#070706]'>
         <div className='max-w-[1296px] h-full mx-auto flex flex-wrap items-center justify-between'>
             <div>
                 <p className='font-semibold text-[64px] leading-[72px] text-[#ff8911]'>

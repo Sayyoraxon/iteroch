@@ -4,7 +4,7 @@ import { FocusCardsDemo } from './ui/focusCards'
 
 const Team = () => {
     return (
-        <div className='bg-white w-full'>
+        <div className='px-3 bg-white w-full'>
             <div className='max-w-[1296px] mx-auto py-[120px]'>
                 <p className='font-bold text-[18px] leading-[26px] text-[#7f27ff]'>
                     OUR TEAM
