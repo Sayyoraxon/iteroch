@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        syne: ['Syne', 'sans-serif'], // Syne shriftini qo‘shish
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
