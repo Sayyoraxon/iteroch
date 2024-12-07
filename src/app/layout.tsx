@@ -3,6 +3,13 @@ import "./globals.css";
 import Provider from "./provider";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
+import { Syne } from 'next/font/google';
+
+const syne = Syne({
+  subsets: ['latin'],
+  weight: ['400', '800'], // Kerakli vaznlar
+  display: 'swap',        // Fallback shriftlar bilan uzluksiz yuklash
+});
 
 
 export const metadata: Metadata = {
@@ -24,7 +31,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`antialiased`}
+      className={`${syne.className} antialiased`}
       >
         <Provider>
           <Navbar/>
