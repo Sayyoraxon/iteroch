@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import React from 'react'
-import { AiOutlinePlayCircle } from 'react-icons/ai'
 
 const About = () => {
     return (
